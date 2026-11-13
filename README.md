@@ -4,6 +4,11 @@ Aplikasi Flutter Web untuk memantau postur duduk dan koreksi kemiringan kursi
 otomatis. UI mobile-first (kolom selebar ponsel di layar lebar), bahasa
 Indonesia.
 
+**Demo langsung:** https://mildessnath.github.io/smart-chair/ — masuk dengan
+email berformat valid apa saja dan kata sandi minimal 4 karakter. Di-deploy
+otomatis dari `main` lewat GitHub Actions (`.github/workflows/pages.yml`),
+hanya jika `flutter analyze` dan `flutter test` lulus.
+
 > **Status: UI + data simulasi.** Belum ada Firebase, ESP32, atau akun nyata.
 > Semua data berasal dari simulator deterministik dan diberi label
 > "simulasi". Login hanya tiruan (tidak ada server akun).
